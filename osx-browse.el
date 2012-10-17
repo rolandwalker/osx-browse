@@ -521,7 +521,8 @@ BROWSER defaults to \"com.apple.Safari\".
 
 URL, NEW-WINDOW, and FOCUS are as documented for
 `osx-browse-url'."
-  (interactive (osx-browse-interactive-form nil nil "com.apple.Safari"))
+  (interactive (osx-browse-interactive-form))
+  (callf or browser "com.apple.Safari")
   (osx-browse-url url new-window browser focus))
 
 ;;;###autoload
@@ -532,7 +533,8 @@ BROWSER defaults to \"com.google.Chrome\".
 
 URL, NEW-WINDOW, and FOCUS are as documented for
 `osx-browse-url'."
-  (interactive (osx-browse-interactive-form nil nil "com.google.Chrome"))
+  (interactive (osx-browse-interactive-form))
+  (callf or browser "com.google.Chrome")
   (osx-browse-url url new-window browser focus))
 
 ;;;###autoload
@@ -543,7 +545,8 @@ BROWSER defaults to \"org.mozilla.Firefox\".
 
 URL, NEW-WINDOW, and FOCUS are as documented for
 `osx-browse-url'."
-  (interactive (osx-browse-interactive-form nil nil "org.mozilla.Firefox"))
+  (interactive (osx-browse-interactive-form))
+  (callf or browser "org.mozilla.Firefox")
   (osx-browse-url url new-window browser focus))
 
 (provide 'osx-browse)
