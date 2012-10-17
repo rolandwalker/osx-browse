@@ -100,6 +100,9 @@
 ;;
 ;; Bugs
 ;;
+;;     `osx-browse-prefer-background' is only respected on
+;;     interactive calls.
+;;
 ;;     Keybindings don't work out of the box with Aquamacs, which
 ;;     does not think that ⌘ is the Super modifier.
 ;;
