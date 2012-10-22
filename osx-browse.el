@@ -395,11 +395,14 @@ is 'toggle."
    (t
     (setq browse-url-browser-function osx-browse-saved-browse-url-browser-function)
     (when osx-browse-install-aliases
-      (when (eq (symbol-function 'browse-url-chromium) 'osx-browse-url-chrome)
+      (when (and (fboundp 'browse-url-chromium)
+                 (eq (symbol-function 'browse-url-chromium) 'osx-browse-url-chrome))
         (fmakunbound 'browse-url-chromium))
-      (when (eq (symbol-function 'browse) 'osx-browse-url)
+      (when (and (fboundp 'browse)
+                 (eq (symbol-function 'browse) 'osx-browse-url))
         (fmakunbound 'browse))
-      (when (eq (symbol-function 'google) 'osx-browse-guess)
+      (when (and (fboundp 'google)
+                 (eq (symbol-function 'google) 'osx-browse-guess))
         (fmakunbound 'google)))
     (when (and (osx-browse-called-interactively-p 'interactive)
                (not osx-browse-less-feedback))
