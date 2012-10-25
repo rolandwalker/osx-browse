@@ -32,9 +32,12 @@ Quickstart
 Explanation
 -----------
 
-This package helps Emacs run Safari, Google Chrome, and Firefox
-on OS X.  It uses `browse-url`, but is somewhat more friendly and
-configurable than the OS X functions provided there.
+This package helps Emacs run [Safari](http://www.apple.com/safari), [Google Chrome](http://www.google.com/chrome), and [Firefox](http://www.mozilla.org/firefox)
+on OS X.  It is similar to the built-in `browse-url`, but is
+somewhat more friendly and configurable.
+
+The foreground/background behavior of the external browser can
+be controlled via customizable variables and prefix arguments.
 
 Default values for URLs or search text are deduced from the region
 or from context around the point, according to the heuristics in
@@ -68,7 +71,7 @@ When `osx-browse-install-aliases` is set (the default) and
 Notes
 -----
 
-This library uses browse-url-dwim.el, but does not require that
+This library uses [browse-url-dwim.el](http://github.com/rolandwalker/browse-url-dwim), but does not require that
 `browse-url-dwim-mode` be turned on.  If both modes are turned
 on, keybindings from both modes will be active.
 
@@ -81,7 +84,7 @@ and friends are provided in the event that you wish to set
 Bugs
 ----
 
-Keybindings don't work out of the box with Aquamacs, which
+Keybindings don't work out of the box with [Aquamacs](http://aquamacs.org/), which
 does not think that ⌘ is the Super modifier.
 
 OS X makes an iconified application visible, even when opening

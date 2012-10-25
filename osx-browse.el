@@ -39,8 +39,11 @@
 ;; Explanation
 ;;
 ;; This package helps Emacs run Safari, Google Chrome, and Firefox
-;; on OS X.  It uses `browse-url', but is somewhat more friendly and
-;; configurable than the OS X functions provided there.
+;; on OS X.  It is similar to the built-in `browse-url', but is
+;; somewhat more friendly and configurable.
+;;
+;; The foreground/background behavior of the external browser can
+;; be controlled via customizable variables and prefix arguments.
 ;;
 ;; Default values for URLs or search text are deduced from the region
 ;; or from context around the point, according to the heuristics in
