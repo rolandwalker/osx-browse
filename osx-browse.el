@@ -44,6 +44,9 @@
 ;;
 ;; The foreground/background behavior of the external browser can
 ;; be controlled via customizable variables and prefix arguments.
+;; A positive prefix argument forces foreground; a negative prefix
+;; argument forces background.  With no prefix argument, the
+;; customizable variable setting is respected.
 ;;
 ;; Default values for URLs or search text are deduced from the region
 ;; or from context around the point, according to the heuristics in
