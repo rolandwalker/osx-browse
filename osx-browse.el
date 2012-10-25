@@ -175,8 +175,6 @@
 
 (require 'string-utils nil t)
 
-(autoload 'browse-url                         "browse-url"       "Ask a WWW browser to load a URL." t)
-
 (autoload 'browse-url-dwim-find-search-text   "browse-url-dwim"  "Find some text on which to conduct a search.")
 (autoload 'browse-url-dwim-coerce-to-web-url  "browse-url-dwim"  "Coerce URL to a string representing a valid web address.")
 (autoload 'browse-url-dwim-get-url            "browse-url-dwim"  "Find a Web URL by context or user input.")
