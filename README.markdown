@@ -1,4 +1,4 @@
-[![Build Status](https://secure.travis-ci.org/rolandwalker/osx-browse.png)](http://travis-ci.org/rolandwalker/osx-browse)
+[![Build Status](https://secure.travis-ci.org/rolandwalker/osx-browse.png?branch=master)](http://travis-ci.org/rolandwalker/osx-browse)
 
 Overview
 ========
