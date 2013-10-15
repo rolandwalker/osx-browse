@@ -200,7 +200,7 @@
   "Web browsing helpers for OS X."
   :version "0.8.6"
   :link '(emacs-commentary-link :tag "Commentary" "osx-browse")
-  :link '(url-link :tag "Github" "http://github.com/rolandwalker/osx-browse")
+  :link '(url-link :tag "GitHub" "http://github.com/rolandwalker/osx-browse")
   :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/OSXBrowse")
   :prefix "osx-browse-"
   :group 'external

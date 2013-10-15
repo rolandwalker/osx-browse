@@ -20,6 +20,8 @@
 
 ;;; todo - osx-browse-guess (text &optional new-window browser focus search-url)
 
+;;; todo - osx-browse-mode
+
 
 ;;; osx-browse-bundle-name-p
 
