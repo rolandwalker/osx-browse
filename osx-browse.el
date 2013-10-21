@@ -324,6 +324,13 @@ in GNU Emacs 24.1 or higher."
 
 ;;; compatibility functions
 
+(unless (fboundp 'string-match-p)
+  ;; added in 23.x
+  (defun string-match-p (regexp string &optional start)
+    "Same as `string-match' except this function does not change the match data."
+    (let ((inhibit-changing-match-data t))
+      (string-match regexp string start))))
+
 (unless (fboundp 'string-utils-has-darkspace-p)
   ;; simplified version of function from string-utils.el
   (defun string-utils-has-darkspace-p (obj)
