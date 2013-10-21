@@ -1,1 +1,4 @@
 /ert-tests/ert.el
+/ert-tests/browse-url-dwim.el
+/ert-tests/list-utils.el
+/ert-tests/string-utils.el
