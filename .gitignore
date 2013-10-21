@@ -4,3 +4,4 @@
 /ert-tests/string-utils.el
 *-autoloads.el
 *.elc
+*~
