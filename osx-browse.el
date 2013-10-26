@@ -5,8 +5,8 @@
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/osx-browse
 ;; URL: http://raw.github.com/rolandwalker/osx-browse/master/osx-browse.el
-;; Version: 0.8.6
-;; Last-Updated: 22 Oct 2012
+;; Version: 0.8.8
+;; Last-Updated: 26 Oct 2013
 ;; EmacsWiki: OSXBrowse
 ;; Keywords: hypermedia, external
 ;; Package-Requires: ((string-utils "0.3.2") (browse-url-dwim "0.6.6"))
@@ -199,7 +199,7 @@
 ;;;###autoload
 (defgroup osx-browse nil
   "Web browsing helpers for OS X."
-  :version "0.8.6"
+  :version "0.8.8"
   :link '(emacs-commentary-link :tag "Commentary" "osx-browse")
   :link '(url-link :tag "GitHub" "http://github.com/rolandwalker/osx-browse")
   :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/OSXBrowse")
