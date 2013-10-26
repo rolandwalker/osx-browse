@@ -40,7 +40,7 @@ TEST_DEP_3=string-utils
 TEST_DEP_3_STABLE_URL=https://raw.github.com/rolandwalker/string-utils/e18887a44dcd55f45741f94b09f89ba3d58ace8d/string-utils.el
 TEST_DEP_3_LATEST_URL=https://raw.github.com/rolandwalker/string-utils/master/string-utils.el
 TEST_DEP_4=browse-url-dwim
-TEST_DEP_4_STABLE_URL=https://raw.github.com/rolandwalker/browse-url-dwim/56c71eb7798128f8c23cfa9b1cac0a897ad6eefd/browse-url-dwim.el
+TEST_DEP_4_STABLE_URL=https://raw.github.com/rolandwalker/browse-url-dwim/4d1887fd78f52b733bcb9d99813f7af4d6c724d4/browse-url-dwim.el
 TEST_DEP_4_LATEST_URL=https://raw.github.com/rolandwalker/browse-url-dwim/master/browse-url-dwim.el
 
 .PHONY : build dist not-dirty pkg-version downloads downloads-latest autoloads \

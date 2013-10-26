@@ -9,7 +9,7 @@
 ;; Last-Updated: 22 Oct 2012
 ;; EmacsWiki: OSXBrowse
 ;; Keywords: hypermedia, external
-;; Package-Requires: ((browse-url-dwim "0.6.2"))
+;; Package-Requires: ((browse-url-dwim "0.6.6"))
 ;;
 ;; Simplified BSD License
 ;;
