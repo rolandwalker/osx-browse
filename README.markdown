@@ -8,7 +8,7 @@ Web browsing helpers for Emacs on OS X.
 Quickstart
 ----------
 
-```lisp
+```elisp
 (require 'osx-browse)
  
 (osx-browse-mode 1)
@@ -49,7 +49,7 @@ or from context around the point, according to the heuristics in
 To use osx-browse, place the osx-browse.el library somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
 
-```lisp
+```elisp
 (require 'osx-browse)
 (osx-browse-mode 1)
 ```
