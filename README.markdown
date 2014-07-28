@@ -1,12 +1,10 @@
 [![Build Status](https://secure.travis-ci.org/rolandwalker/osx-browse.png?branch=master)](http://travis-ci.org/rolandwalker/osx-browse)
 
-Overview
-========
+# Overview
 
 Web browsing helpers for Emacs on OS X.
 
-Quickstart
-----------
+## Quickstart
 
 ```elisp
 (require 'osx-browse)
@@ -29,8 +27,7 @@ Quickstart
 (setq browse-url-dwim-always-confirm-extraction nil)
 ```
 
-Explanation
------------
+## Explanation
 
 This package helps Emacs run [Safari](http://www.apple.com/safari), [Google Chrome](http://www.google.com/chrome), and [Firefox](http://www.mozilla.org/firefox)
 on OS X.  It is similar to the built-in `browse-url`, but is
@@ -71,8 +68,7 @@ When `osx-browse-install-aliases` is set (the default) and
 	google
 	browse-url-chromium
 
-Notes
------
+## Notes
 
 This library uses [browse-url-dwim.el](http://github.com/rolandwalker/browse-url-dwim), but does not require that
 `browse-url-dwim-mode` be turned on.  If both modes are turned
@@ -84,8 +80,7 @@ facilities will be provided by this library.  `osx-browse-url-safari`
 and friends are provided in the event that you wish to set
 `browse-url-browser-function` by hand.
 
-Bugs
-----
+## Bugs
 
 Keybindings don't work out of the box with [Aquamacs](http://aquamacs.org/), which
 does not think that ⌘ is the Super modifier.
@@ -93,15 +88,13 @@ does not think that ⌘ is the Super modifier.
 OS X makes an iconified application visible, even when opening
 a URL in the background.
 
-See Also
---------
+## See Also
 
 	M-x customize-group RET osx-browse RET
 	M-x customize-group RET browse-url-dwim RET
 	M-x customize-group RET browse-url RET
 
-Compatibility and Requirements
-------------------------------
+## Compatibility and Requirements
 
 	GNU Emacs version 24.4-devel     : yes, at the time of writing
 	GNU Emacs version 24.3           : yes
