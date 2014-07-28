@@ -90,9 +90,9 @@ a URL in the background.
 
 ## See Also
 
-	M-x customize-group RET osx-browse RET
-	M-x customize-group RET browse-url-dwim RET
-	M-x customize-group RET browse-url RET
+<kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>osx-browse</kbd> <kbd>RET</kbd>
+<kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url-dwim</kbd> <kbd>RET</kbd>
+<kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url</kbd> <kbd>RET</kbd>
 
 ## Compatibility and Requirements
 
