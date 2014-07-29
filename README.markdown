@@ -43,8 +43,8 @@ Default values for URLs or search text are deduced from the region
 or from context around the point, according to the heuristics in
 [browse-url-dwim.el](http://github.com/rolandwalker/browse-url-dwim).
 
-To use osx-browse, place the osx-browse.el library somewhere
-Emacs can find it, and add the following to your ~/.emacs file:
+To use osx-browse, place the `osx-browse.el` library somewhere
+Emacs can find it, and add the following to your `~/.emacs` file:
 
 ```elisp
 (require 'osx-browse)
