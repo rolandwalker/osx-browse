@@ -4,6 +4,13 @@
 
 Web browsing helpers for Emacs on OS X.
 
+ * [Quickstart](#quickstart)
+ * [Explanation](#explanation)
+ * [Notes](#notes)
+ * [Bugs](#bugs)
+ * [See Also](#see-also)
+ * [Compatibility and Requirements](#compatibility-and-requirements)
+
 ## Quickstart
 
 ```elisp
@@ -90,9 +97,9 @@ a URL in the background.
 
 ## See Also
 
-* <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>osx-browse</kbd> <kbd>RET</kbd>
-* <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url-dwim</kbd> <kbd>RET</kbd>
-* <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url</kbd> <kbd>RET</kbd>
+ * <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>osx-browse</kbd> <kbd>RET</kbd>
+ * <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url-dwim</kbd> <kbd>RET</kbd>
+ * <kbd>M-x</kbd> <kbd>customize-group</kbd> <kbd>RET</kbd> <kbd>browse-url</kbd> <kbd>RET</kbd>
 
 ## Compatibility and Requirements
 
